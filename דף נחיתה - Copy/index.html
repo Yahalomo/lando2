@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<style>
+    @import url(https://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+</style>
+
+<body>
+
+    <header class="masthead">
+        <div class="container-fluid">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12">
+                        <div class="col-md-12 callUs">
+                            <h3 class="title">התקשרו עכשיו!</h3>
+                            <p class="numberOne number">0505544567</p>
+                            <p class="numberOne number">0585544567</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 logoSection">
+                        <img class="logoRight" src="./img/logoright.png">
+                        <h4 class="titleOne subTitle">הובלת דירות - מתמחים בהובלת דירות כולל אריזה ועיטוף</h4>
+                        <h4 class="titleTwo subTitle">הריהוט על ידי צוות מקצועי אדיב ומהיר</h4>
+                        <div class="col-md-12 testimonialSection">
+                            <img class="testimonial" src="./img/test.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-md-12">
+                    <div class="col-md-6 col-sm-12 col-xs-12 cont-img contact">
+                        <form role="form" id="contactForm" data-toggle="validator" class="shake">
+                            <div class="row col-md-12">
+                                <div class="col-md-6">
+                                    <button type="submit" style="background-color: white; pointer-events: all; cursor: pointer;" id="form-submit" class="col-md-6  btn-default pull-left">קבע תאריך הובלה</button> </div>
+                                <div class="col-md-6">
+                                    <p style='font-size:25px; font-family: ' Varela ', sans-serif;' class="contactText text-center First">?צריכים הובלה</p>
+                                    <p style='font-size:25px' class="contactText Second">הזמינו עכשיו הובלה!</p>
+                                </div>
+                            </div>
+                            <div class="row col-md-12">
+                                <div class="form-group col-sm-6">
+                                    <input type="text" class="form-control" id="name" placeholder="הכנס שם" required data-error="NEW ERROR MESSAGE">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <input type="email" class="form-control" id="email" placeholder="הכנס טלפון" required>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12 icon-wrapper">
+                        <div class="col-md-5 col-xs-3 value">
+
+                            <span style='font-size:20px; color:#505a78; font-family:Open Sans Hebrew; font-weight:600;'>שירותי אריזה</span><img class="greenTrust" src="./img/greentrust.png" />
+                        </div>
+                        <div class="col-md-5 col-xs-3 value">
+                            <span style='font-size:20px; color:#505a78; font-family:Open Sans Hebrew; font-weight:600;'>הובלת דירות</span><img class="greenTrust" src="./img/greentrust.png" />
+                        </div>
+                        <div class="col-md-5 col-xs-3 value">
+                            <span style='font-size:20px; color:#505a78; font-family:Open Sans Hebrew; font-weight:600;'>פירוק והרכבה</span><img class="greenTrust" src="./img/greentrust.png" />
+                        </div>
+                        <div class="col-md-5 col-xs-3 value">
+                            <span style='font-size:20px; color:#505a78; font-family:Open Sans Hebrew; font-weight:600;'>שירותי מינוף</span><img class="greenTrust" src="./img/greentrust.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!---
+    <div class="overlay">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="col-md-12 callUs">
+                        <h3 class="title">התקשרו עכשיו!</h3>
+                        <p class="numberOne number">0505544567</p>
+                        <p class="numberOne number">0585544567</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 logoSection">
+                    <img class="logoRight" src="./img/logoright.png">
+                    <h4 class="titleOne subTitle">הובלת דירות - מתמחים בהובלת דירות כולל אריזה ועיטוף</h4>
+                    <h4 class="titleTwo subTitle">הריהוט על ידי צוות מקצועי אדיב ומהיר</h4>
+                    <div class="col-md-12 testimonialSection">
+                        <img class="testimonial" src="./img/test.png">
+                    </div>
+                </div>
+            </div>
+            <div class="row col-md-12">
+                <div class="col-md-6 col-sm-12 col-xs-12 contact">
+                    <form role="form" id="contactForm" data-toggle="validator" class="shake">
+                        <div class="row col-md-12">
+                            <div class="col-md-6">
+                                <button type="submit" id="form-submit" class="col-md-6 btn btn-success btn-lg pull-left ">קבע תאריך הובלה</button>
+                            </div>
+                            <div class="col-md-6">
+                                <p class="contactText text-center First">?צריכים הובלה</p>
+                                <p class="contactText Second">הזמינו עכשיו הובלה!</p>
+                            </div>
+                        </div>
+                        <div class="row col-md-12">
+                            <div class="form-group col-sm-6">
+                                <input type="text" class="form-control" id="name" placeholder="הכנס שם" required data-error="NEW ERROR MESSAGE">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <input type="email" class="form-control" id="email" placeholder="הכנס טלפון" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="clearfix"></div>
+                    </form>
+                </div>
+                <div class="col-md-6 col-sm-12 col-xs-12 icon-wrapper">
+                    <div class="col-md-5 col-xs-3 value">
+
+                        <span>שירותי אריזה</span><img class="greenTrust" src="./img/greentrust.png" />
+                    </div>
+                    <div class="col-md-5 col-xs-3 value">
+                        <span>הובלת דירות</span><img class="greenTrust" src="./img/greentrust.png" />
+                    </div>
+                    <div class="col-md-5 col-xs-3 value">
+                        <span>פירוק והרכבה</span><img class="greenTrust" src="./img/greentrust.png" />
+                    </div>
+                    <div class="col-md-5 col-xs-3 value">
+                        <span>שירותי מינוף</span><img class="greenTrust" src="./img/greentrust.png" />
+                    </div>
+                </div>
+            </div>
+<!--->
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+            </div>
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <img src=' https://image.ibb.co/dR96Oa/247.png ' style="margin-bottom:-50px" alt=' ' />
+                    <h4 class="service-heading">שירות 24/7</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src='https://image.ibb.co/kbfP9F/confirm.png ' style="margin-bottom:-50px" alt=' ' />
+                    <h4 class="service-heading">יותר מעשור של ניסיון</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src='https://image.ibb.co/mY249F/location.png ' style="margin-bottom:-50px" alt=' ' />
+                    <h4 class="service-heading">יותר מעשור של ניסיון</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+
+                <div class="col-md-3">
+                    <img src='https://image.ibb.co/kHej9F/time.png ' style="margin-bottom:-50px" alt=' ' />
+                    <h4 class="service-heading">יותר מעשור של ניסיון</h4>
+                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--
+            <div id="abschnitt3" class="container">
+                <div class="row  inline-block">
+                    <div class="cont">
+                        <div class="col-xs-6 col-md-3 p-d">
+                            <p><img src="https://image.ibb.co/dR96Oa/247.png" alt="" title="" class="easy-icon" /></p>
+                            <div class="iconname">שירות 7\24</div>
+                        </div>
+
+                        <div class="col-xs-6 col-md-3 p-d ">
+                            <p><img src="https://image.ibb.co/kbfP9F/confirm.png" alt="" title="" class="easy-icon" /></p>
+                            <div class="iconname">יותר מעשור של ניסיון</div>
+                        </div>
+                    </div>
+                    <div class='cont '>
+                        <div class="col-xs-6 col-md-3 p-d">
+                            <p><img src="https://image.ibb.co/mY249F/location.png" alt="" title="" class="easy-icon" /></p>
+                            <div class="iconname">c/div>
+                        </div>
+                        <div class="col-xs-6 col-md-3 p-d">
+                            <p><img src="https://image.ibb.co/kHej9F/time.png" alt="" title="" class="easy-icon" /></p>
+                            <div class="iconname">c</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--->
+    <!--
+            <div class="autowide">
+               <div class="module">
+                  <p><img class="bottomIcon" src="./img/location.png"/></p>
+                  <span class="p">הובלות ברחבי הארץ</span>
+               </div>
+               <div class="module">
+                  <p><img class="bottomIcon" src="./img/247.png" /></p>
+                  <span class="p">שירות  7\24</span>               </div>
+               <div class="module">
+                  <p><img class="bottomIcon" src="./img/load.png" /></p>
+                  <span class="p">עמידה בזמנים</span>               </div>
+               <div class="module">
+                  <p><img class="bottomIcon" src="./img/247.png" /></p>
+                  <span class="p">יותר מעשור של ניסיון</span>               </div>
+            </div>
+      </div>
+      </div>
+      <!-->
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/validator.min.js"></script>
+<script type="text/javascript" src="js/form-scripts.js"></script>
+
+</html>
